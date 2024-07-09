@@ -1,6 +1,62 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 * {
     padding: 0px;
     margin: 0px;
     border: 0px;
+    box-sizing: border-box;
 }
 
+html, body {
+    background-color: #232830;
+    color: white;
+}
+
+header {
+    font-family: 'Poppins';
+
+    height: 300px;
+    width: 90vw;
+    margin: 5% auto;
+}
+
+header > section > a {
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+header section nav {
+    display: inline;
+    
+    width: fit-content;
+
+    padding-left: 140px;
+}
+
+header section nav a {
+    text-decoration: none;
+    color: white;
+    font-size: .8em;
+    
+    display: inline-block;
+
+    padding: 5px;
+}
+
+header img {
+    display: block;
+
+    margin: auto;
+}
+
+header h1 {
+    padding: 40px 10px;
+    text-align: center;
+}
