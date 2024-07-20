@@ -114,6 +114,10 @@ main nav a:hover {
     text-decoration: underline;
 }
 
+main section div.midcontent {
+    display: flex;
+}
+
 footer section {
     position: relative;
 
