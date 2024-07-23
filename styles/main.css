@@ -115,7 +115,9 @@ main nav a:hover {
 }
 
 main section div.midcontent {
-    display: flex;
+    
+    width: 250px;
+    height: 250px;
 }
 
 footer section {
