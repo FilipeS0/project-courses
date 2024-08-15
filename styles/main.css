@@ -11,6 +11,8 @@
     border: 0px;
     box-sizing: border-box;
     font-family: 'Poppins';
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 html, body {
@@ -22,8 +24,8 @@ header {
     font-family: 'Poppins';
 
     height: 300px;
-    width: 80vw;
-    margin: 5% auto;
+    width: 70vw;
+    margin: 2% auto;
 }
 
 header > section > a {
@@ -88,7 +90,12 @@ main section {
 main section nav {
     color: #909090;
 
-    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    width: 80vw;
+    padding-bottom: 40px;
+
     text-align: center;
 }
 
@@ -103,9 +110,9 @@ main nav a {
     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
-    font-size: .9em;
+    font-size: 1.4rem;
     
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 main nav#bottom {
@@ -114,27 +121,37 @@ main nav#bottom {
 
 main nav a:hover {
     text-decoration: underline;
+    color: #FF7575;
 }
 
 main section article {
+    width: 60vw;
+
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    margin: auto;
+    
 }
 
 main section article div.midcontent {
-    
-    width: 370px;
+    position: relative;
+
+    width: 340px;
     height: 419px;
     
     padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
 
     background-color: white;
     color: black;
+    font-size: 0.9rem;
 }
 
 div.midcontent img {
-    width: 320px;
+    width: 295px;
     height: 160px;
 
     border-radius: 10px;
@@ -142,10 +159,33 @@ div.midcontent img {
 }
 
 div.midcontent h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
 
     padding-top: 15px;
-    text-align: ;
+
+}
+
+div.midcontent p {
+    font-size: .8rem;
+}
+
+div.midcontent .date {
+    position: absolute;
+    bottom: 16px;
+
+    font-size: 0.8rem;
+}
+
+div.midcontent .date data {
+    font-size: 0.8rem;
+
+    padding-right: 15px;
+}
+
+div.midcontent .date span {
+    font-size: 0.8rem;
+
+    padding-right: 15px;
 }
 
 footer section {
