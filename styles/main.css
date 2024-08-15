@@ -10,6 +10,7 @@
     margin: 0px;
     border: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 html, body {
@@ -125,7 +126,7 @@ main section article div.midcontent {
     width: 370px;
     height: 419px;
     
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
 
     background-color: white;
@@ -133,9 +134,18 @@ main section article div.midcontent {
 }
 
 div.midcontent img {
-    width: 337px;
+    width: 320px;
     height: 160px;
-    background-image: ;
+
+    border-radius: 10px;
+    background: center center;
+}
+
+div.midcontent h3 {
+    font-size: 1.3rem;
+
+    padding-top: 15px;
+    text-align: ;
 }
 
 footer section {
