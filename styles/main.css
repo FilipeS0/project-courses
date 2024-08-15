@@ -92,6 +92,7 @@ main section nav {
 }
 
 main section nav#top {
+    
 }
 
 main nav a {
@@ -114,10 +115,27 @@ main nav a:hover {
     text-decoration: underline;
 }
 
-main section div.midcontent {
+main section article {
+    display: flex;
+    justify-content: space-around;
+}
+
+main section article div.midcontent {
     
-    width: 250px;
-    height: 250px;
+    width: 370px;
+    height: 419px;
+    
+    padding: 10px;
+    border-radius: 10px;
+
+    background-color: white;
+    color: black;
+}
+
+div.midcontent img {
+    width: 337px;
+    height: 160px;
+    background-image: ;
 }
 
 footer section {
